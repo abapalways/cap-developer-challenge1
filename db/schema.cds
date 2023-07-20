@@ -10,9 +10,10 @@ entity Rounds : cuid , managed {
 entity Holes : cuid  {
   score  : Integer;
   par    : Integer;
-  result : String(111);
   round  : Association to Rounds;
   shots  : Composition of many Shots;
+  result : String;
+
 }
 
 entity Shots : cuid  {
