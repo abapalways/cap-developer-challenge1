@@ -1,0 +1,7 @@
+POST http://localhost:4004/browse/Holes
+Content-Type: application/json
+
+{
+    "score" : 3,
+    "par": 4
+}​
